@@ -1,45 +1,41 @@
-# Material <small>for MkDocs</small>
+# [Chenghao](./cv/)'s Project Site
 
-## Create beautiful project documentation
+## <i class="fa fa-flask"></i> Research Studies
 
-Material is a theme for [MkDocs][1], an excellent static site generator geared
-towards project documentation. It is built using Google's [Material Design][2]
-guidelines.
+<i class="fa fa-caret-right"></i> [Fast Food Study](./studies/ffs/)
 
-[![Material for MkDocs](assets/images/material.png)](assets/images/material.png)
+<i class="fa fa-caret-right"></i> [Egg Study](./studies/egg/)
 
-  [1]: https://www.mkdocs.org
-  [2]: https://material.io/guidelines/material-design/
+<i class="fa fa-caret-right"></i> [Ghana Study](./studies/ghana/)
 
-## Quick start
+<i class="fa fa-caret-right"></i> [Alzheimer Study](./studies/alzheimer/)
 
-Install the latest version of Material with `pip`:
+## <i class="fa fa-github"></i>  Github Projects
+<i class="fa fa-caret-right"></i> [Metabase](https://www.github.com/zhuchcn/Metabase)
 
-``` sh
-pip install mkdocs-material
-```
+R package for storing, handling, anlyzing, and visualizing high though-put experiment data, such as metabolomics and proteomics.
 
-Append the following line to your project's `mkdocs.yml`:
+<i class="fa fa-caret-right"></i> [phylox](http://www.github.com/zhuchcn/phylox)
 
-``` yaml
-theme:
-  name: 'material'
-```
+R package for storing, handling, analyzing and visualizing phylogenic sequencing data in different phylogenic levels.
 
-## What to expect
+<i class="fa fa-caret-right"></i> [zheatmap](http://www.github.com/zhuchcn/zheatmap)
 
-* Responsive design and fluid layout for all kinds of screens and devices,
-  designed to serve your project documentation in a user-friendly way in 35
-  languages with optimal readability.
+R package for generating clustered and annotated heatmaps using ggplot2 package.
 
-* Easily customizable primary and accent color, fonts, favicon and logo;
-  straight forward localization through theme extension; integrated with Google
-  Analytics, Disqus and GitHub.
+<i class="fa fa-caret-right"></i> [ggmetaplots](http://www.github.com/zhuchcn/ggmetaplots)
 
-* Well-designed search interface accessible through hotkeys (<kbd>F</kbd> or
-  <kbd>S</kbd>), intelligent grouping of search results, search term
-  highlighting and lazy loading.
+R package with encapsulated functions to generate different plots that is frequently used, such as boxplot and scatterplot.
 
-For detailed instructions see the [getting started guide][3].
+## <i class="fa fa-wrench"></i> Small Apps
 
-  [3]: getting-started.md
+<i class="fa fa-caret-right"></i> [Mix Modeler](./tools/apps/mix-modeler)
+
+An app allows you to copy paste your data from Excel and run linear model.
+
+<i class="fa fa-caret-right"></i> [Power Calculator](./tools/apps/power-cal)
+
+An app to run power calculator with given means and SDs of two groups.
+
+
+## <i class="fa fa-id-card"></i> [About me](./cv/)

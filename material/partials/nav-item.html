@@ -39,6 +39,8 @@
       </label>
     {% endif %}
     <a href="{{ nav_item.url | url }}" title="{{ nav_item.title }}" class="md-nav__link md-nav__link--active">
+      {% set icon = config.extra.nav_icon[loop.index - 1] %}
+      <i class="{{icon.lib}} {{icon.lib}}-{{icon.type}}"></i>
       {{ nav_item.title }}
     </a>
     {% if toc_ | first is defined %}
@@ -48,6 +50,8 @@
 {% else %}
   <li class="{{ class }}">
     <a href="{{ nav_item.url | url }}" title="{{ nav_item.title }}" class="md-nav__link">
+      {% set icon = config.extra.nav_icon[loop.index - 1] %}
+      <i class="{{icon.lib}} {{icon.lib}}-{{icon.type}}"></i>
       {{ nav_item.title }}
     </a>
   </li>

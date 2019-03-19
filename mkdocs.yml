@@ -1,4 +1,10 @@
-# Copyright (c) 2016-2019 Martin Donath <martin.donath@squidfunk.com>
+theme:
+  name: null
+  custom_dir: 'mkdocs-material/material'
+
+extra_css:
+  - css/extra.css
+# Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -19,18 +25,10 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
-site_description: A Material Design theme for MkDocs
-site_author: Martin Donath
-site_url: https://squidfunk.github.io/mkdocs-material/
-
-# Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
-edit_uri: ""
-
-# Copyright
-copyright: 'Copyright &copy; 2016 - 2019 Martin Donath'
+site_name: Chenghao Zhu
+site_description: This is my project website
+site_author: Chenghao Zhu
+site_url: https://www.chenghaozhu.net
 
 # Configuration
 theme:
@@ -59,18 +57,41 @@ theme:
   logo:
     icon: "\uE80C"
 
+# github repo
+repo_name: 'zhuchcn/projects'
+repo_url: 'https://github.com/zhuchcn/projects'
+
 # Customization
 extra:
   social:
-    - type: globe
-      link: http://struct.cc
-    - type: github-alt
-      link: https://github.com/squidfunk
-    - type: twitter
-      link: https://twitter.com/squidfunk
-    - type: linkedin
-      link: https://linkedin.com/in/squidfunk
-
+    - lib : fa
+      type: github
+      link: https://github.com/zhuchcn
+    - lib : fa
+      type: linkedin
+      link: https://www.linkedin.com/in/chenghao-zhu/
+    - lib : ai
+      type: google-scholar
+      link: https://scholar.google.com/citations?user=4jb1IdgAAAAJ&hl=en#d=gs_hdr_drw&p=&u=
+    - lib: ai
+      type: cv
+      link: http://www.chenghaozhu.net/cv
+    - lib: fa
+      type: weixin
+      link: http://www.chenghaozhu.net/cv/img/qrcode.jpg
+  nav_icon:
+    - lib: fa
+      type: home
+    - lib: fa
+      type: briefcase
+    - lib: fa
+      type: book
+    - lib: fa
+      type: sitemap
+    - lib: ai
+      type: coursera
+    - lib: fa
+      type: microphone
 # Extensions
 markdown_extensions:
   - markdown.extensions.admonition
@@ -91,10 +112,7 @@ markdown_extensions:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.keys
-  - pymdownx.magiclink:
-      repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+  - pymdownx.magiclink
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
@@ -103,25 +121,15 @@ markdown_extensions:
   - pymdownx.tilde
 
 # Page tree
-nav:
-  - Material: index.md
-  - Getting started: getting-started.md
-  - Extensions:
-    - Admonition: extensions/admonition.md
-    - CodeHilite: extensions/codehilite.md
-    - Footnotes: extensions/footnotes.md
-    - Metadata: extensions/metadata.md
-    - Permalinks: extensions/permalinks.md
-    - PyMdown: extensions/pymdown.md
-  - Specimen: specimen.md
-  - Customization: customization.md
-  - Compliance with GDPR: compliance.md
-  - Release notes: release-notes.md
-  - Author's notes: authors-notes.md
-  - Contributing: contributing.md
-  - License: license.md
+pages:
+  - Home: index.md
+  - Tutorials: tutorials.md
+  - Documentations: docs.md
+  - Workflows: workflows.md
+  - Online Courses: moocs.md
+  - Presentations: presents.md
 
 # Google Analytics
 google_analytics:
-  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+  - "UA-118767459-2"
   - auto
