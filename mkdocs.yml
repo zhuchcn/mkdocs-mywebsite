@@ -4,6 +4,8 @@ theme:
 
 extra_css:
   - css/extra.css
+extra_javascript:
+  - 'src/extra.js'
 # Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -30,6 +32,9 @@ site_description: This is my project website
 site_author: Chenghao Zhu
 site_url: https://www.chenghaozhu.net
 
+# Copyright
+copyright: 'Copyright &copy; $YEAR Chenghao Zhu'
+
 # Configuration
 theme:
   name: null
@@ -54,8 +59,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: assets/images/favicon.png
-  logo:
-    icon: "\uE80C"
+  logo: assets/images/favicon.png
 
 # github repo
 repo_name: 'zhuchcn/projects'
@@ -121,13 +125,21 @@ markdown_extensions:
   - pymdownx.tilde
 
 # Page tree
-pages:
+nav:
   - Home: index.md
   - Tutorials: tutorials.md
   - Documentations: docs.md
   - Workflows: workflows.md
   - Online Courses: moocs.md
   - Presentations: presents.md
+  - Blogs:
+    - English: 
+      - blogs: posts/english.md
+      - match.call: posts/en/2019-03-22.md
+    - 中文:
+      - blogs: posts/chinese.md
+      - match.call: posts/cn/2019-03-22.md
+  
 
 # Google Analytics
 google_analytics:
